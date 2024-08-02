@@ -3,8 +3,7 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             for(int j=1+i;j<nums.length;j++){
                 if(nums[i]+nums[j]==target){
-                    int indices[]={i,j};
-                      return new int[]{i, j};
+                    return new int[]{i, j};
                 }
               
             }
